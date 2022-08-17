@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+p{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 0 1rem;
+}
+
+.flex_space_between{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #172029;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 2.2rem;
+    cursor: pointer;
+}

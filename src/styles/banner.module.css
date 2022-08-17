@@ -1,0 +1,19 @@
+.banner{
+    margin-top: 22.5rem;
+    text-align: center;
+}
+.banner img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 30rem;
+    margin-top: -12.5rem;
+}
+
+.content{
+    background-color: #F3F3F3;
+    margin: 2rem 0;
+}
+
+.content p{
+    font-size: 4rem;
+}

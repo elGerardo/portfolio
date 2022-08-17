@@ -1,0 +1,18 @@
+.header{
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header div{
+    padding: 1rem 1rem;
+}
+
+.nav a{
+    text-decoration: none;
+    margin: 0 0 0 5rem;
+    border-top: 1px solid #172029;
+    border-bottom: 1px solid #172029;
+    color: #172029;
+}
