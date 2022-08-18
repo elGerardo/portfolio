@@ -19,6 +19,13 @@ p{
     align-items: center;
 }
 
+.flex_space_around{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .flex_center{
     display: flex;
     background-color: white;

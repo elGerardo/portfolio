@@ -5,6 +5,10 @@
     top: 0;
 }
 
+.header h2{
+    cursor: pointer;
+}
+
 .header div{
     padding: 1rem 1rem;
 }

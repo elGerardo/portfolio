@@ -11,7 +11,6 @@ function App() {
       <Banner />
       <AboutMe />
       <MyTravel />
-      <AboutMe />
     </div>
   );
 }

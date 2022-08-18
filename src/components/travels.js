@@ -19,7 +19,6 @@ var Travels = (props) => {
       
       <img
         className={`${style.image}`}
-        
         src={require(`../assets/images/${props.image}`)}
         alt="brand"
       />

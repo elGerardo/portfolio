@@ -13,8 +13,8 @@ var Banner = () => {
             a mexican <b>web developer</b>, 
             <b> programmer</b>, with creative and innovated <b>solutions</b> for you.</p>
         </div>
-        <div className={`${global.btn_container} `}>
-            <a href="#about_me" className={`${global.btn}`}><FontAwesomeIcon icon={faArrowDown}/></a>
+        <div className={`${global.btn_container} ${style.goDown}`}>
+            <a href="#about_me" className={`${global.btn}`}><span><FontAwesomeIcon icon={faArrowDown}/></span></a>
         </div>
     </div>
     return ( content )

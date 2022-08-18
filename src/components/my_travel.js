@@ -3,7 +3,10 @@ import Travel from "./travels";
 
 var MyTravel = () => {
   let content = (
-    <div className={`${global.container}`} id="my_travel">
+    <div className={`${global.container} ${global.total_vh}`}>
+      <br id="my_travel"/>
+      <br />
+      <br /> 
       <h1>My Travel</h1>
       <p>
         <i>My travel hasn't finished</i>
