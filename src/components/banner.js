@@ -6,15 +6,15 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 var Banner = () => {
 
     let content = 
-    <div className={`${global.container} ${global.total_vh} ${style.banner}`}>
+    <div className={`${global.container} ${style.banner}`}>
         <div className={`${style.content}`}>
-            <img src={require('../assets/images/pic.jpg')}/>
+            <img src={require('../assets/images/pic.jpg')} alt="gerardo's pic"/>
             <p>Hi, I'm Gerardo
             a mexican <b>web developer</b>, 
             <b> programmer</b>, with creative and innovated <b>solutions</b> for you.</p>
         </div>
         <div className={`${global.btn_container} `}>
-            <div className={`${global.btn}`}><FontAwesomeIcon icon={faArrowDown}/></div>
+            <a href="#about_me" className={`${global.btn}`}><FontAwesomeIcon icon={faArrowDown}/></a>
         </div>
     </div>
     return ( content )

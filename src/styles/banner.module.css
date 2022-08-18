@@ -1,6 +1,7 @@
 .banner{
     margin-top: 22.5rem;
     text-align: center;
+    margin-bottom: 15rem;
 }
 .banner img{
     width: 25rem;
@@ -11,7 +12,7 @@
 
 .content{
     background-color: #F3F3F3;
-    margin: 2rem 0;
+    margin: 5rem 0;
 }
 
 .content p{

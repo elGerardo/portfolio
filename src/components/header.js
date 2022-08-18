@@ -10,8 +10,8 @@ var Header = () => {
         <h2>Gerardo</h2>
         <nav className={`${style.nav}`}>
           <a href="#about_me">about me</a>
-          <a href="#about_me">my travel</a>
-          <a href="#about_me">portfolio</a>
+          <a href="#my_travel">my travel</a>
+          <a href="#portfolio">portfolio</a>
         </nav>
       </div>
     </header>

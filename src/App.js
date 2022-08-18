@@ -1,5 +1,7 @@
-import Header from './components/header'
-import Banner from './components/banner'
+import Header from './components/header';
+import Banner from './components/banner';
+import AboutMe from './components/aboutMe';
+import MyTravel from './components/my_travel';
 import './App.css';
 
 function App() {
@@ -7,6 +9,9 @@ function App() {
     <div>
       <Header />
       <Banner />
+      <AboutMe />
+      <MyTravel />
+      <AboutMe />
     </div>
   );
 }
