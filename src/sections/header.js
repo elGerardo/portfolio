@@ -12,11 +12,10 @@ var Header = () => {
   let content = (
     <header className={`${style.header}`}>
       <div className={`${global.flex_space_between} ${global.container}`}>
-        <h2 onClick={goTop} >Gerardo</h2>
+        <h2 onClick={goTop} >Gerardo </h2>
         <nav className={`${style.nav}`}>
           <a href="#about_me">about me</a>
-          <a href="#my_travel">my travel</a>
-          <a href="#portfolio">portfolio</a>
+          <a href="#my_portfolio">portfolio</a>
         </nav>
       </div>
     </header>

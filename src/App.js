@@ -1,7 +1,8 @@
-import Header from './components/header';
-import Banner from './components/banner';
-import AboutMe from './components/aboutMe';
-import MyTravel from './components/my_travel';
+import Header from './sections/header';
+import Footer from './sections/footer';
+import Banner from './sections/banner';
+import AboutMe from './sections/aboutMe';
+import Portfolio from './sections/portfolio';
 import './App.css';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Banner />
       <AboutMe />
-      <MyTravel />
+      <Portfolio />
+      <Footer />
     </div>
   );
 }

@@ -11,8 +11,7 @@ var Banner = () => {
             <img src={require('../assets/images/pic.jpg')} alt="gerardo's pic"/>
             <div className={`${style.banner_text}`}>
                 <p>Hi, I'm Gerardo
-                a mexican <b>web developer</b>, 
-                <b> programmer</b>, with creative and innovated <b>solutions</b> for you.</p>
+                a mexican <b>web developer</b>, with creative and innovated <b>solutions</b> for you.</p>
             </div>
         </div>
         <div className={`${global.btn_container} ${style.goDown}`}>
