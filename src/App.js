@@ -4,10 +4,11 @@ import Banner from './sections/banner';
 import AboutMe from './sections/aboutMe';
 import Portfolio from './sections/portfolio';
 import './App.css';
+import './js/main.js';
 
 function App() {
   return (
-    <div>
+    <div >
       <Header />
       <Banner />
       <AboutMe />

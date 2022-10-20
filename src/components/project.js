@@ -32,6 +32,7 @@ var Project = (props) => {
                 className={`${style.image}`}
                 src={require(`../assets/images/tec_logos/${tech}`)}
                 alt="brand"
+                key={tech}
               />
             ))}
           </div>

@@ -5,8 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let handleScroll = (e) =>{
+  console.log(e);
+};
 root.render(
-  <React.StrictMode>
+  <React.StrictMode onScroll={handleScroll}>
     <App />
   </React.StrictMode>
 );
