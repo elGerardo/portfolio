@@ -31,7 +31,9 @@ var Portfolio = () => {
         image="scp_api.png"
         techs='["laravel.png","mysql.png"]'
       />
-      
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 

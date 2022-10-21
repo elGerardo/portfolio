@@ -27,7 +27,6 @@ var Banner = () => {
     <div className={`${global.container} ${style.banner}`}>
       <div className={`${style.content} ${global.flex_space_between}`}>
         <div className={`${style.banner_text}`}>
-          <p></p>
           <p>Hi, my name is Gerardo ;)</p>
           <p>
             I'm <span ref={textRef}></span>

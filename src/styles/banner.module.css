@@ -1,4 +1,5 @@
 .banner{
+    margin-top: 10rem;
     text-align: left;
 }
 .images{
@@ -59,3 +60,30 @@
     animation-iteration-count: infinite;  
     animation-direction: alternate;
 } 
+
+@media only screen and (max-width: 1110px){
+    .images{
+        width: 40rem;
+        height: 40rem;
+        margin: 0 2rem 0 0;
+    }
+}
+
+@media only screen and (max-width: 860px){
+    .images{
+        width: 30rem;
+        height: 30rem;
+        margin: 0;
+    }
+    .content .banner_text{
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media only screen and (max-width: 660px){
+    .images{
+        width: 20rem;
+        height: 20rem;
+    }
+}

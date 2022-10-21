@@ -39,7 +39,7 @@ var Project = (props) => {
           <a href={props.url}>{props.url}</a>
         </div>
         <img
-          className={`${style.image}`}
+          className={`${style.image} ${style.project_image}`}
           src={require(`../assets/images/${props.image}`)}
           alt="brand"
         />

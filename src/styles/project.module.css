@@ -1,6 +1,7 @@
 .container{
     margin: 0 auto;
     max-width: 1080px;
+
 }
 .content{
     font-size: 2.4rem;
@@ -74,4 +75,23 @@
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     width: 3.2rem;
+}
+
+@media only screen and (max-width: 1110px){
+    .project_image{
+        width: 30rem;
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 860px){
+    .project{
+        flex-direction: column;
+    }
+    .circle{
+        display: none;
+    }
+    .year_line{
+        display: none;
+    }
 }
