@@ -8,6 +8,7 @@ function init(){
         }else{
             let footerContent = document.getElementById("footer_content");
             footerContent.style.marginTop = "4rem";
+            
         }
     })
 }

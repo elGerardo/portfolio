@@ -12,7 +12,15 @@
 
 .banner .banner_text{
     padding: 0 0 0 5rem;
-    width: 60%;
+    width: 70%;
+}
+
+.banner_text span{
+    font-size: 3.8rem;
+}
+
+.banner_text .span_block{
+    display: block;
 }
 
 .banner .banner_text img{
@@ -91,11 +99,17 @@
 }
 
 @media only screen and (max-width: 580px){
-    
     .content{
         flex-direction: column-reverse;
     }
-    .content .banner_text{
-        font-size: 1rem;
+    .banner_text .social_media{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .banner_text span{
+        margin: 1rem 0;
+        font-size: 2.8rem;
     }
 }

@@ -27,11 +27,11 @@ var Banner = () => {
     <div className={`${global.container} ${style.banner}`}>
       <div className={`${style.content} ${global.flex_space_between}`}>
         <div className={`${style.banner_text}`}>
-          <p>Hi, my name is Gerardo ;)</p>
-          <p>
+          <span className={`${style.span_block}`}>Hi, my name is Gerardo</span>
+          <span className={`${style.span_block}`}>
             I'm <span ref={textRef}></span>
-          </p>
-          <div>
+          </span>
+          <div className={`${style.social_media}`}>
             <a
               href="https://github.com/elGerardo"
               target="_blank"
