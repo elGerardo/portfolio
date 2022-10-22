@@ -7,14 +7,6 @@
     font-size: 2.4rem;
 }
 
-.content img{
-    width: 40rem;
-    margin: 5rem 0 0 0;
-    box-shadow: 5px 5px 0px 1px rgba(23,32,41,0.2);
-    -webkit-box-shadow: 5px 5px 0px 1px rgba(23,32,41,0.2);
-    -moz-box-shadow: 5px 5px 0px 1px rgba(23,32,41,0.2);
-}
-
 .year{
     font-size: 1.8rem;
     font-weight: 300;
@@ -75,6 +67,19 @@
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     width: 3.2rem;
+}
+
+.image_github{
+    margin: 0 1rem 0 0;
+    width: 2.5rem;
+    vertical-align: middle;
+}
+
+.project_image{
+    width: 40rem;
+    box-shadow: 5px 5px 0px 1px rgba(23,32,41,0.2);
+    -webkit-box-shadow: 5px 5px 0px 1px rgba(23,32,41,0.2);
+    -moz-box-shadow: 5px 5px 0px 1px rgba(23,32,41,0.2);
 }
 
 @media only screen and (max-width: 1110px){

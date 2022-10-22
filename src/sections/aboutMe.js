@@ -13,6 +13,16 @@ var AboutMe = () => {
       <p>
         <i>I'll promise you'll find something interesting</i>
       </p>
+      <p>
+        I'm a young student of 22 years, I am currently studying of Technologies
+        of Information at the area of Multiplatform Develop Software at
+        Universidad Tecnológica de Tijuana. I consider myself a self-taught
+        person who enjoys what he does, because I really enjoy the world of
+        software development. My work and school experience have shown me that I
+        am actually doing things that I like, and although I still have a lot to
+        learn, I am still enthusiastic about continuing to grow in the world of
+        software development.
+      </p>
       <div className={`${global.container} ${style.content}`}>
         <h3>Technologies I've managed</h3>
         <div className={`${global.container} ${global.flex_space_around}`}>

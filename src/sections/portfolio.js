@@ -18,6 +18,7 @@ var Portfolio = () => {
         last="true"
         text="A simple app designed to have a fast view about the weather based on the user location, one of my first app's done on my student time."
         url="https://mycoolwheaterapp.netlify.app/"
+        urlGithub="https://github.com/elGerardo/weather-app"
         image="weather_app.png"
         techs='["vue.png"]'
       />
@@ -26,14 +27,17 @@ var Portfolio = () => {
         last="true"
         text="An SCP API done with Laravel. 
         This API provide information from the SCP Wiki, currently,
-        on the web page there is a documentation of all the endpoints availables."
+        on the web page there is a documentation of all the endpoints availables.
+        There is two versions, one done with Laravel and MySQL which is in production and
+        one done with .NET Core and SQLServer."
         url="https://scpapi.000webhostapp.com/"
+        urlGithub="https://github.com/elGerardo/SCP-API"
         image="scp_api.png"
         techs='["laravel.png","mysql.png"]'
       />
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
     </div>
   );
 

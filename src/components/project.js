@@ -36,7 +36,7 @@ var Project = (props) => {
               />
             ))}
           </div>
-          <a href={props.url}>{props.url}</a>
+          <a href={props.urlGithub}><img className={`${style.image_github}`} src={require(`../assets/images/github.png`)} alt="github"/></a> <a href={props.url}>{props.url}</a>
         </div>
         <img
           className={`${style.image} ${style.project_image}`}

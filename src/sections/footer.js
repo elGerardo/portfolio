@@ -1,4 +1,5 @@
 import style from "../styles/footer.module.css";
+import Pdf from "../files/CV.pdf";
 
 var Footer = () => {
   let content = (
@@ -19,11 +20,7 @@ var Footer = () => {
         >
           <img src={require("../assets/images/instagram.png")} alt="github" />
         </a>
-        <a
-          href="https://www.instagram.com/ggerardius/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={Pdf} target="_blank" rel="noopener noreferrer">
           <img src={require("../assets/images/cv.png")} alt="curriculum" />
         </a>
       </div>

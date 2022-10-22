@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import Pdf from "../files/CV.pdf";
 
 var Banner = () => {
   let textRef = useRef(null);
@@ -27,7 +28,7 @@ var Banner = () => {
     <div className={`${global.container} ${style.banner}`}>
       <div className={`${style.content} ${global.flex_space_between}`}>
         <div className={`${style.banner_text}`}>
-          <span className={`${style.span_block}`}>Hi, my name is Gerardo</span>
+          <span className={`${style.span_block}`}>Hi, my name is Gerardo ;)</span>
           <span className={`${style.span_block}`}>
             I'm <span ref={textRef}></span>
           </span>
@@ -49,11 +50,7 @@ var Banner = () => {
                 alt="github"
               />
             </a>
-            <a
-              href="https://www.instagram.com/ggerardius/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={Pdf} target="_blank" rel="noopener noreferrer">
               <img src={require("../assets/images/cv.png")} alt="curriculum" />
             </a>
           </div>
