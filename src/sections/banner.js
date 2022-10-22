@@ -57,7 +57,7 @@ var Banner = () => {
         </div>
         <img
           className={`${style.images}`}
-          src={require("../assets/images/pic.jpg")}
+          src={require("../assets/images/pic.png")}
           alt="gerardo's pic"
         />
       </div>
