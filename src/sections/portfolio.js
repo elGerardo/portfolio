@@ -17,7 +17,7 @@ var Portfolio = () => {
         brand="Weather APP"
         last="true"
         text="A simple app designed to have a fast view about the weather based on the user location, one of my first app's done on my student time."
-        url="https://friendly-hamster-27a284.netlify.app"
+        url="https://mycoolwheaterapp.netlify.app/"
         image="weather_app.png"
         techs='["vue.png"]'
       />

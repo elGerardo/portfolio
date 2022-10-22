@@ -1,6 +1,7 @@
 import style from "../styles/technologies.module.css";
 
 var Technologies = (props) => {
+
   let content = (
     <div className={`${style.content}`}>
       <img
@@ -8,6 +9,9 @@ var Technologies = (props) => {
         alt="brand"
       />
       <p>{props.title}</p>
+      <div>
+
+      </div>
     </div>
   );
 

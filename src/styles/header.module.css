@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    background-color: #172029;
 }
 
 .header h2{
@@ -12,6 +13,8 @@
 
 .header div{
     padding: 1rem 1rem;
+    background-color: #172029;
+    color: white;
 }
 
 .nav a{
@@ -19,5 +22,28 @@
     margin: 0 0 0 5rem;
     border-top: 1px solid #172029;
     border-bottom: 1px solid #172029;
-    color: #172029;
+    color: white;
+}
+
+.nav a{
+    background:
+        linear-gradient(
+        to right,
+        #172029,
+        #172029
+        ),
+        linear-gradient(
+        to right,
+        white,
+        white,
+        white
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+nav a:hover {
+    background-size: 0 3px, 100% 3px;
 }

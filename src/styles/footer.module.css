@@ -6,15 +6,27 @@
     height: 4rem;
     background-color: transparent;
     overflow: hidden;
+;
 }
 
 .footer div{
     background-color: white;
     margin-top: 4rem;
     transition: all ease-in-out 0.4s;
+    display: flex;
+}
+
+.footer div p{
+    margin-top: 1rem;
 }
 
 .footer img{
     width: 25px;
     margin: 5px 5px;
+}
+
+@media only screen and (max-width: 580px){
+    .footer div p{
+        font-size: 1rem;
+    }
 }

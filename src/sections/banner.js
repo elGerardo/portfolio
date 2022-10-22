@@ -49,6 +49,13 @@ var Banner = () => {
                 alt="github"
               />
             </a>
+            <a
+              href="https://www.instagram.com/ggerardius/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={require("../assets/images/cv.png")} alt="curriculum" />
+            </a>
           </div>
         </div>
         <img
