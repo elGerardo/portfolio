@@ -31,7 +31,7 @@ var AboutMe = () => {
         </div>
         <div className={`${global.container} ${global.flex_space_around}`}>
           <Technologies image="vue.png" title="Nuxt" />
-          <Technologies image="bootstrap_vue.png" title="Bootstrap Vue" />
+          <Technologies image="bootstrap.png" title="Bootstrap Vue" />
           <Technologies image="react.png" title="React" />
         </div>
         <div className={`${global.container} ${global.flex_space_around}`}>
