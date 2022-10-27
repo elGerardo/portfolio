@@ -36,7 +36,25 @@ var Project = (props) => {
               />
             ))}
           </div>
-          <a href={props.urlGithub}><img className={`${style.image_github}`} src={require(`../assets/images/github.png`)} alt="github"/></a> <a href={props.url}>{props.url}</a>
+          <a href={props.urlGithub}>
+            <img
+              className={`${style.image_github}`}
+              src={require(`../assets/images/github.png`)}
+              alt="github"
+            />
+          </a>{" "}
+          <a href={props.url}>{props.url}</a>
+          <br />
+          {props.extraUrlGithub != null ? (
+            <a href={props.extraUrlGithub}>
+              <img
+                className={`${style.image_github}`}
+                src={require(`../assets/images/github.png`)}
+                alt="github"
+              />
+              SCP API .NET Core API Repo
+            </a>
+          ) : null}
         </div>
         <img
           className={`${style.image} ${style.project_image}`}

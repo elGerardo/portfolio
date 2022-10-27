@@ -25,13 +25,14 @@ var Portfolio = () => {
       <Project
         brand="SCP API"
         last="true"
-        text="An SCP API done with Laravel. 
+        text="An SCP API done with Laravel and .NET Core API. 
         This API provide information from the SCP Wiki, currently,
         on the web page there is a documentation of all the endpoints availables.
         There is two versions, one done with Laravel and MySQL which is in production and
-        one done with .NET Core and SQLServer."
+        one done with .NET Core API and SQLServer."
         url="https://scpapi.000webhostapp.com/"
         urlGithub="https://github.com/elGerardo/SCP-API"
+        extraUrlGithub="https://github.com/elGerardo/SCP-API-net-core"
         image="scp_api.png"
         techs='["laravel.png","mysql.png"]'
       />
