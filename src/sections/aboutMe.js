@@ -30,7 +30,7 @@ var AboutMe = () => {
           <Technologies image="net.png" title=".Net" />
         </div>
         <div className={`${global.container} ${global.flex_space_around}`}>
-          <Technologies image="vue.png" title="Vue" />
+          <Technologies image="nuxt.png" title="Nuxt/Vue" />
           <Technologies image="bootstrap.png" title="Bootstrap" />
           <Technologies image="react.png" title="React" />
         </div>

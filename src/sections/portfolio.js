@@ -25,7 +25,7 @@ var Portfolio = () => {
       <Project
         brand="SCP API"
         last="true"
-        text="An SCP API done with Laravel for Backend and and Nuxt for FrontEnd. 
+        text="An SCP API done with Laravel for Backend and Nuxt with Bootstrap Vue for FrontEnd. 
         This API provide information from the SCP Wiki, currently,
         on the web page there is a documentation of all the endpoints availables.
         There is two backend versions, one done with Laravel and MySQL which is in production and
@@ -34,7 +34,7 @@ var Portfolio = () => {
         urlGithub="https://github.com/elGerardo/SCP-API"
         extraUrlGithub="https://github.com/elGerardo/SCP-API-net-core"
         image="scp_api.png"
-        techs='["nuxt.png","laravel.png","mysql.png"]'
+        techs='["nuxt.png","bootstrap_vue.png","laravel.png","mysql.png"]'
       />
       <br />
       <br />
